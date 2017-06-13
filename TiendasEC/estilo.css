@@ -1,0 +1,301 @@
+body {
+    background-color: #333;
+    font-family: "Helvetica", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625;
+}
+.textComen {
+    font-family: arial, verdana, ms sans serif;
+    text-align: left;
+    color: black;
+    font-size: 20pt;
+    width: 1090px;
+    height: 70px;
+
+}
+textarea
+{
+    text-align: left;
+    text-align-all: left;
+}
+
+.marcar{
+    border: red 5px solid;
+}
+
+.marcarSubC{
+    border: fuchsia 5px solid;
+}
+
+.subcomentario
+{
+    width: 976px;
+}
+.textSub
+{
+    font-family: "Baskerville Old Face";
+    color: white;
+    font-size: 20pt;
+    width: 976px;
+    height: 100px;
+    background-color: #333;
+
+}
+.comentario
+{
+    width: 1500px;
+}
+
+.blanco
+{
+    width: 630px;
+
+}
+
+.foto
+{
+    width: 70px;
+}
+
+.usuario
+{
+    width: 300px;
+}
+
+.info
+{
+    padding: 10px;
+    color: white;
+    width: 481px;
+    border: lightblue 5px solid;
+}
+
+.numCom
+{
+    background-color: #333;
+    color: white;
+    border-color: transparent;
+}
+
+
+.Subblanco
+{
+    width: 400px;
+
+}
+
+.Subfoto
+{
+    width: 70px;
+}
+
+.Subusuario
+{
+    width: 90px;
+}
+
+.Subinfo
+{
+    padding: 10px;
+    color: white;
+    width: 381px;
+    border: lightblue 5px solid;
+}
+
+
+.produc
+{
+    width: 400px;
+    height: 30px;
+    color: fuchsia;
+    font-style: inherit;
+    font-size: 30px;
+}
+.productos
+{
+    font-size: 25px;
+    color: white;
+}
+
+.button {
+    border: none;
+    background: #3a7999;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+.eliminar
+{
+    color: lightgreen;
+    font-size: 22px;
+}
+
+@font-face {
+    font-family: 'Monoton';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Iceland'), local('Iceland-Regular'), url(http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff) format('woff');
+}
+
+
+body{
+    background-color: #333;
+}
+/*neon effect*/
+p{
+    text-align:center;
+    font-size:100px;
+    margin:20px 0 20px 0;
+}
+
+a{
+    text-decoration:none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+p:nth-child(1) a{
+    color:#FF1177;
+    font-family:Monoton;
+}
+p:nth-child(1) a:hover{
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+
+
+p a:hover{
+    color:#ffffff;
+}
+
+
+
+/*glow for webkit-ket-frames*/
+@-webkit-keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #FF1177,
+        0 0 70px  #FF1177,
+        0 0 80px  #FF1177,
+        0 0 100px #FF1177,
+        0 0 150px #FF1177;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #FF1177,
+        0 0 35px #FF1177,
+        0 0 40px #FF1177,
+        0 0 50px #FF1177,
+        0 0 75px #FF1177;
+    }
+}
+
+
+#login-box {
+    width:333px;
+    height: 352px;
+    padding: 58px 76px 0 76px;
+    color: #ebebeb;
+    font: 12px Arial, Helvetica, sans-serif;
+    background: url(imagenes/login-box-backg.png) no-repeat left top;
+}
+
+#regist-box {
+    width:400px;
+    height: 1000px;
+    color: #ebebeb;
+    font: 12px Arial, Helvetica, sans-serif;
+    background: url(imagenes/login-box-backg.png) no-repeat left top;
+}
+
+#login-box img {
+    border:none;
+}
+
+#login-box h2 {
+    padding:0;
+    margin:0;
+    color: #ebebeb;
+    font: bold 44px "Calibri", Arial;
+}
+
+
+#label {
+    float: left;
+    display:inline;
+    width:80px;
+    text-align: right;
+    padding: 14px 10px 0 0;
+    margin:0 0 7px 0;
+    font-size: 15px;
+}
+
+#login-box-field {
+    float: left;
+    display:inline;
+    width:230px;
+    margin:0;
+    margin:0 0 7px 0;
+}
+
+#referencias
+{
+    color: white;
+    font-style: inherit;
+    font-size: 20px;
+    font-family: "Helvetica", sans-serif;
+}
+
+.form-login  {
+    width: 205px;
+    padding: 10px 4px 6px 3px;
+    border: 1px solid #0d2c52;
+    background-color:#1e4f8a;
+    font-size: 16px;
+    color: #ebebeb;
+}
+
+
+.login-box-options  {
+    clear:both;
+    padding-left:87px;
+    font-size: 11px;
+}
+
+.login-box-options a {
+    color: #ebebeb;
+    font-size: 11px;
+}
+
+.tiendas
+{
+    color: fuchsia;
+    font-size: 30px;
+    font-family: "Helvetica", sans-serif;
+}
+.tituloT
+{
+    font-size: 50px;
+    font-family: "Baskerville Old Face";
+    color: cornflowerblue;
+}
